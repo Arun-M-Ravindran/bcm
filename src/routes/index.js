@@ -1,5 +1,5 @@
 import Home from "../pages/Home";
-import Product from "../pages/Product";
+import DataMaping from "../pages/datamaping/DataMaping";
 import Products from "../pages/Products";
 
 const mainRoutes = [
@@ -8,17 +8,8 @@ const mainRoutes = [
     element: <Home />,
   },
   {
-    path: "products",
-    children: [
-      {
-        index: true,
-        element: <Products />,
-      },
-      {
-        path: ":productId",
-        element: <Product />,
-      },
-    ],
+    path: "maping",
+    element: <DataMaping />
   },
 ];
 

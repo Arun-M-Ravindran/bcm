@@ -1,0 +1,16 @@
+.dm-c-b {
+    color: black;
+}
+.dm-pt-s {
+    padding-top: 1rem;
+}
+.dm-pb-s {
+    padding-bottom: 1rem;
+}
+.select-box {
+    width: 50%;
+}
+.chart-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}

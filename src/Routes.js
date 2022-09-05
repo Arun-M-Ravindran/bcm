@@ -1,16 +1,13 @@
 import { Route, Routes as BaseRoutes } from "react-router-dom";
 import Home from "./pages/Home";
-import Products from "./pages/Products";
-import Product from "./pages/Product";
+// import DataMaping from "./pages/DataMaping";
+import DataMaping from "./pages/datamaping/DataMaping";
 
 export default function Routes() {
   return (
     <BaseRoutes>
       <Route path="/" element={<Home />} />
-      <Route path="products">
-        <Route index element={<Products />} />
-        <Route path=":productId" element={<Product />} />
-      </Route>
+      <Route path="/maping" element={<DataMaping />} />
     </BaseRoutes>
   );
 }
